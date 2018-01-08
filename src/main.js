@@ -3,7 +3,6 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-//路由拦截器(导航守卫)，控制tarBar的显示隐藏
 //router.beforeEach 注册一个全局前置守卫
 router.beforeEach((to, from, next) => {
   /*to: Route: 即将要进入的目标 路由对象
